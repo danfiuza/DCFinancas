@@ -1,10 +1,15 @@
 # DCFinancas
 Sitema gerenciador de finanças
+<hr>
 Data: 01/03/2016
+<br>
 Desenvolvido por:
+<hr>
 Daniel Fiuza,
 Ricardo Caldeira
+<hr>
 <br>
+<hr>
 Configurações de instalação da aplicação:
 <hr>
 copie as configurações de servidor que estão em docs/README.txt 
