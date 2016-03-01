@@ -3,12 +3,11 @@ Sitema gerenciador de finanças
 <hr>
 Data: 01/03/2016
 <br>
-Desenvolvido por:
 <hr>
+Desenvolvido por:
+<br>
 Daniel Fiuza,
 Ricardo Caldeira
-<hr>
-<br>
 <hr>
 Configurações de instalação da aplicação:
 <hr>
