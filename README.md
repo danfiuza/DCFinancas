@@ -15,7 +15,7 @@ Execute no terminal: sudo nano /etc/apache2/sites-enabled/000-default.conf
 <br>
 Cole as configurações
 <br>
-Terminal: sudo nano /etc/hosts
+Execute no Terminal: sudo nano /etc/hosts
 <br>
 Inclua : 127.0.1.2       dcfinancas.local
 <br>
