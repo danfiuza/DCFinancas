@@ -1,0 +1,39 @@
+<?php echo $this->doctype(); ?>
+<html>
+<head>
+    	<?php echo $this->headMeta()->setHttpEquiv('Content-Type', 'text/html;charset=utf-8');?>
+   	    <?php echo $this->headScript()->setFile("/assets/js/jquery-2.1.4.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/js/jquery.maskMoney.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/dist/js/sb-admin-2.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/js/jquery.number.min.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/js/jquery.maskedinput.min.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/js/mascaras.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/js/Chart.min.js"); ?>
+        <!-- Morris Charts JavaScript -->
+        <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/bower_components/raphael/raphael-min.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/bower_components/morrisjs/morris.min.js"); ?>
+        <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/js/morris-data.js"); ?>
+        <!-- Metis Menu -->
+        <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/bower_components/metisMenu/dist/metisMenu.min.js"); ?>
+        <!-- Custom Theme JavaScript -->
+         <?php echo $this->headScript()->appendFile("/assets/start-bootstrap/dist/js/sb-admin-2.js"); ?>
+        
+        <?php echo $this->headScript()->appendFile("/assets/bootstrap/js/bootstrap.js"); ?>
+        <?php echo $this->headLink()->setStylesheet("/assets/bootstrap/css/bootstrap.css"); ?>
+        
+        <?php echo $this->headLink()->setStylesheet("/assets/start-bootstrap/bower_components/metisMenu/dist/metisMenu.min.css"); ?>
+        <?php echo $this->headLink()->setStylesheet("/assets/css/css.css"); ?>
+        <?php echo $this->headLink()->setStylesheet("/assets/start-bootstrap/dist/css/sb-admin-2.css"); ?>
+        <?php echo $this->headLink()->setStylesheet("/assets/start-bootstrap/bower_components/morrisjs/morris.css"); ?>
+        <?php echo $this->headLink()->setStylesheet("/assets/start-bootstrap/bower_components/font-awesome/css/font-awesome.min.css"); ?>
+        
+    </head>
+<body>
+        <?php echo $this->layout()->content; ?>
+        <footer class="footer">
+  <div class="container">
+   <h3 class="text-muted align-center">Teste</h3>
+  </div>
+ </footer>
+</body>
+</html>
